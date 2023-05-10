@@ -1,4 +1,4 @@
-# Pokemon
+# React calculator
 
 
 ### [Demo](https://calculator-nmk.netlify.app/)
