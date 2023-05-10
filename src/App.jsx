@@ -47,6 +47,11 @@ function App() {
   const handleDel = () => {
     setCalculate(calculate.slice(0, -1));
     setNumber(calculate.slice(0, -1));
+
+    if (calculate === "Invalid!") {
+      setNumber("");
+      setCalculate("");
+    }
   };
 
   return (
